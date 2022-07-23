@@ -71,7 +71,7 @@
       <section class="hero hero-overley">
         <div class="container">
           <h1 class="main-title">Эффективные решения для вашего бизнеса</h1>
-          <button class="hero-button" type="button">Заказать услугу</button>
+          <button class="hero-button" type="button" data-modal-open>Заказать услугу</button>
         </div>
       </section>
       <!-- About section -->
@@ -143,6 +143,9 @@
                 width="370"
                 height="294"
               />
+              <div class="our-work-block">
+                <p class="our-work-txt">Десктопные приложения</p>
+              </div>
             </li>
             <li class="our-work-item">
               <img
@@ -152,6 +155,9 @@
                 width="370"
                 height="294"
               />
+              <div class="our-work-block">
+                <p class="our-work-txt">Мобильные приложения</p>
+              </div>
             </li>
             <li class="our-work-item">
               <img
@@ -161,6 +167,9 @@
                 width="370"
                 height="294"
               />
+              <div class="our-work-block">
+                <p class="our-work-txt">Дизайнерские решения</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -608,6 +617,16 @@
         </div>
       </div>
     </footer>
+    <!-- Modal window -->
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal-window">
+        <button class="modal-btn" data-modal-close>
+          <svg class="modal-btn-icon" width="30" height="30">
+            <use href="./img/icons.svg#icon-close-black"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
-x
